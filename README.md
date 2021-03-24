@@ -15,3 +15,29 @@ a = [[1, 2, 3],[4,5,6]]
 b = [[1, 2], [3, 4],[5,6]]
 print(multiply(a, b))
 ```
+
+### Matrix/Vector Addition
+```python
+from matrixFuncs.add import add
+
+a = [[1, 2, 3],[4, 5, 6]]
+b = [[1, 2, 3],[4, 5, 6]]
+print(add(a, b))
+```
+
+### Matrix/Vector Subtraction
+```python
+from matrixFuncs.subtract import subtract
+
+a = [[4, 5, 6],[4, 5, 6]]
+b = [[1, 2, 3],[1, 2, 3]]
+print(subtract(a, b))
+```
+
+### Matrix Determinant
+```python
+from matrixFuncs.determinant import determinant
+
+a = [[1,2,3],[4,5,6],[7,8,9]]
+print(determinant(a))
+```
